@@ -1,3 +1,5 @@
+@import url(default-settings.css);
+
 body{
     display: flex;
     flex-direction: column;
@@ -8,6 +10,11 @@ body{
 h2{
     margin: 0px;
     padding: 50px;
+
+    font: var(--font1);
+    font-weight: 900;
+    font-style: normal;
+    font-size: 56px;
 }
 
 .video-section{
@@ -16,6 +23,11 @@ h2{
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    
+}
+.videos-div{
+    display: flex;
+    flex-direction: column;
 }
 
 iframe{
